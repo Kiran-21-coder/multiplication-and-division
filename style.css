@@ -1,5 +1,5 @@
 body {
-  font-family: Arial, sans-serif;
+  font-family: Arial;
   padding: 20px;
 }
 
@@ -21,14 +21,8 @@ input[type="text"] {
   box-sizing: border-box;
 }
 
-.buttons {
-  margin-top: 25px;
-  height: 25px;
-  width: 150px;
-}
-
 button {
-  margin-right: 130px;
+  margin-top: 10px;
   padding: 5px 10px;
   cursor: pointer;
 }
@@ -39,11 +33,17 @@ button {
 }
 
 .multiply {
-  background-color: lightblue;
-  border: 1px solid #333;
+  background-color: rgb(236, 245, 113);
+  border: 1px solid black;
+  color: black;
+  height: 30px;
+  width: 170px;
 }
 
 .divide {
-  background-color: lightgray;
-  border: 1px solid #333;
+  background-color: rgb(240, 69, 26);
+  border: 1px solid black;
+  color: white;
+   height: 30px;
+  width: 170px;
 }
